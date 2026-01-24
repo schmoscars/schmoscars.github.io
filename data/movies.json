@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2025-movie-a",
+    "title": "Prestige Snowfall",
+    "year": 2025,
+    "posterPath": "./assets/images/posters/2025-prestige-snowfall.jpg",
+    "nominations": ["Picture", "Actor", "Original Screenplay"]
+  },
+  {
+    "id": "2025-movie-b",
+    "title": "The Serious Hat",
+    "year": 2025,
+    "posterPath": "./assets/images/posters/2025-the-serious-hat.jpg",
+    "nominations": ["Picture", "Supporting Actress", "Costume Design"]
+  },
+  {
+    "id": "2025-movie-c",
+    "title": "Two Hours of Feelings",
+    "year": 2025,
+    "posterPath": "./assets/images/posters/2025-two-hours-of-feelings.jpg",
+    "nominations": ["Picture", "Director", "Cinematography"]
+  },
+  {
+    "id": "2025-movie-d",
+    "title": "Explosions, But Tasteful",
+    "year": 2025,
+    "posterPath": "./assets/images/posters/2025-explosions-but-tasteful.jpg",
+    "nominations": ["Sound", "Visual Effects"]
+  },
+
+  {
+    "id": "2024-movie-a",
+    "title": "Sad Violin Economy",
+    "year": 2024,
+    "posterPath": "./assets/images/posters/2024-sad-violin-economy.jpg",
+    "nominations": ["Picture", "Actress", "Score"]
+  },
+  {
+    "id": "2024-movie-b",
+    "title": "A Quiet Triangle",
+    "year": 2024,
+    "posterPath": "./assets/images/posters/2024-a-quiet-triangle.jpg",
+    "nominations": ["Picture", "Adapted Screenplay"]
+  },
+  {
+    "id": "2024-movie-c",
+    "title": "The Director’s Director",
+    "year": 2024,
+    "posterPath": "./assets/images/posters/2024-the-directors-director.jpg",
+    "nominations": ["Director", "Editing", "Cinematography"]
+  },
+  {
+    "id": "2024-movie-d",
+    "title": "Comedy With Trauma Sprinkles",
+    "year": 2024,
+    "posterPath": "./assets/images/posters/2024-comedy-with-trauma-sprinkles.jpg",
+    "nominations": ["Original Screenplay", "Supporting Actor"]
+  },
+  {
+    "id": "2026-movie-a",
+    "title": "Avatar: Fire and Ash",
+    "year": 2026,
+    "posterPath": "./assets/images/posters/2026/avatar-fire-and-ash.jpg",
+    "nominations": ["Costume Design", "Visual Effects"]
+  },
+  {
+    "id": "2026-movie-b",
+    "title": "Marty Supreme",
+    "year": 2026,
+    "posterPath": "./assets/images/posters/2026/marty-supreme.jpg",
+    "nominations": ["Actor", "Casting", "Cinematography", "Costume Design", "Director", "Film Editing",
+    "Picture", "Production Design", "Original Screenplay"]
+  }
+]

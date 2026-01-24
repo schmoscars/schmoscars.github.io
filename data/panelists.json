@@ -1,0 +1,26 @@
+[
+  {
+    "id": "zach",
+    "name": "Zach Pinto",
+    "bio": "Zach started this website to give the power back to the people. He enjoys watching people do things. He hates blue people. Lives in New York.",
+    "imagePath": "./assets/images/panelists/zach.jpeg"
+  },
+  {
+    "id": "oscar",
+    "name": "Oscar Nobel",
+    "bio": "",
+    "imagePath": "./assets/images/panelists/oscar.jpeg"
+  },
+  {
+    "id": "noah",
+    "name": "Noah Cowit",
+    "bio": "",
+    "imagePath": "./assets/images/panelists/noah.jpeg"
+  },
+  {
+    "id": "jacob",
+    "name": "Jacob Block",
+    "bio": "",
+    "imagePath": "./assets/images/panelists/jacob.jpeg"
+  }
+]
