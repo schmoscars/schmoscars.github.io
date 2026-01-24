@@ -22,7 +22,7 @@ async function loadData() {
 }
 
 function setActiveNav() {
-  const file = window.location.pathname.split("/").pop() || "home.html";
+  const file = window.location.pathname.split("/").pop() || "index.html";
   const map = {
     "years.html": "years",
     "panelists.html": "panelists",
