@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Schmoscars</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body data-page="movie">
+  <div class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="home.html">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 10h12l-1.2 11H7.2L6 10Z"/>
+            <path d="M8 10l-1-5h10l-1 5"/>
+            <path d="M9 6c.6-1.2 2.4-1.2 3 0M12 6c.6-1.2 2.4-1.2 3 0"/>
+            <path d="M8 14h8M8.5 17h7M9 20h6"/>
+          </svg>
+        </div>
+        <div class="brand-title">Schmoscars</div>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" data-nav="years" href="./years.html">ALL YEARS</a>
+        <a class="nav-link" data-nav="panelists" href="./panelists.html">THE SCHMANELISTS</a>
+        <a class="nav-link" data-nav="about" href="./about.html">ABOUT</a>
+      </div>
+    </div>
+  </div>
+
+<div class="container movie-page" id="movie-host">
+  <div class="row" style="margin-bottom:20px;">
+    <a class="small-link" href="./years.html">Back to All Years</a>
+  </div>
+
+  <div class="movie-shell">
+    <!-- LEFT COLUMN -->
+    <div class="movie-left">
+      <h1 id="movie-title" class="movie-title"></h1>
+
+      <p class="movie-sub">
+        Schmanelist rating:
+        <span id="movie-avg" class="score">—</span>
+      </p>
+
+      <div id="movie-poster" class="movie-poster">
+        <div class="poster"></div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="movie-reviews" id="movie-reviews"></div>
+  </div>
+
+  <div id="fatal" style="margin-top:14px;"></div>
+</div>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Schmoscars</title>
+  <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+
+<body data-page="years">
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="home.html">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 10h12l-1.2 11H7.2L6 10Z"/>
+            <path d="M8 10l-1-5h10l-1 5"/>
+            <path d="M9 6c.6-1.2 2.4-1.2 3 0M12 6c.6-1.2 2.4-1.2 3 0"/>
+            <path d="M8 14h8M8.5 17h7M9 20h6"/>
+          </svg>
+        </div>
+        <div class="brand-title">Schmoscars</div>
+      </a>
+
+      <nav class="nav-links">
+        <a class="nav-link" data-nav="years" href="./years.html">ALL YEARS</a>
+        <a class="nav-link" data-nav="panelists" href="./panelists.html">THE SCHMANELISTS</a>
+        <a class="nav-link" data-nav="about" href="./about.html">ABOUT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="filters">
+      <div class="filter-wrap year">
+        <select id="year-select" class="filter-select" aria-label="Select year"></select>
+        <div class="filter-caret" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+        </div>
+        <div id="year-stats" class="year-sub">0 nominees reviewed</div>
+      </div>
+
+      <div class="filter-wrap award">
+        <select id="award-select" class="filter-select" aria-label="Select award category"></select>
+        <div class="filter-caret" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+        </div>
+        <div id="award-stats" class="year-sub">All categories</div>
+      </div>
+    </div>
+
+    <div id="movies-grid" class="poster-grid"></div>
+  </main>
+
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
