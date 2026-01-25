@@ -1058,4 +1058,69 @@ a{ color:inherit; text-decoration:none; }
   }
 }
 
+/* Panelists page: small-phone centering (do NOT affect photo sizing) */
+@media (max-width: 430px) {
+  body[data-page="panelists"] .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  body[data-page="panelists"] .panelist-list {
+    display: grid;
+    justify-items: center; /* centers the cards */
+  }
+
+  body[data-page="panelists"] .panelist-card {
+    width: 100%;           /* fill the container minus padding */
+    box-sizing: border-box; /* keep borders inside width */
+  }
+}
+
+/* Small-phone fix: equal gutters + centered cards, WITHOUT changing image sizing */
+@media (max-width: 430px) {
+  body[data-page="panelists"] .container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  body[data-page="panelists"] .panelist-list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body[data-page="panelists"] .panelist-card {
+    width: 100% !important;          /* respect container padding */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    border: 1px solid rgba(213,139,30,0.12) !important; /* ensure right border exists */
+    overflow: hidden;                 /* keep inner content from visually “breaking” border */
+  }
+}
+
+/* Small-phone: prevent panelist text from spilling off-screen */
+@media (max-width: 430px) {
+  body[data-page="panelists"] .panelist-body,
+  body[data-page="panelists"] .panelist-body * {
+    max-width: 100%;
+    overflow-wrap: anywhere;   /* breaks long words/names */
+    word-break: break-word;
+  }
+
+  /* Slightly smaller typography on tiny phones */
+  body[data-page="panelists"] .panelist-body {
+    padding: 22px 18px !important;  /* a bit tighter so text has room */
+  }
+
+  body[data-page="panelists"] .panelist-name {
+    font-size: 26px !important;     /* was larger */
+    line-height: 1.05 !important;
+  }
+
+  body[data-page="panelists"] .panelist-body .mini,
+  body[data-page="panelists"] .panelist-bio {
+    font-size: 13px !important;
+    line-height: 1.75 !important;
+  }
+}
 
