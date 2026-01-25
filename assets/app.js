@@ -110,28 +110,11 @@ function renderYearsPage({ years, movies, reviews }) {
   const OSCAR_CATEGORIES = [
     "All Categories",
     "Picture",
-    "Director",
-    "Actor",
-    "Actress",
-    "Supporting Actor",
-    "Supporting Actress",
-    "Original Screenplay",
-    "Adapted Screenplay",
     "Animated Feature",
     "International Feature Film",
     "Documentary Feature Film",
     "Cinematography",
-    "Film Editing",
-    "Production Design",
-    "Costume Design",
-    "Makeup and Hairstyling",
-    "Original Score",
-    "Original Song",
-    "Sound",
     "Visual Effects",
-    "Animated Short Film",
-    "Live Action Short Film",
-    "Documentary Short Film"
   ];
 
   yearSelect.innerHTML = years.map((y) => `<option value="${y}">${y}</option>`).join("");

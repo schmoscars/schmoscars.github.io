@@ -1,69 +1,5 @@
 [
   {
-    "movieId": "2025-movie-a",
-    "panelistId": "",
-    "score": 6.7,
-    "reviewText": "A movie that looks like it cost $200M to make you feel politely sad. I respected it more than I enjoyed it.",
-    "reviewDate": "2026-01-01"
-  },
-  {
-    "movieId": "2025-movie-a",
-    "panelistId": "neha",
-    "score": 7.9,
-    "reviewText": "Prestige, but at least it’s competent prestige. A few scenes genuinely hit. The rest are ‘please clap’.",
-    "reviewDate": "2026-01-02"
-  },
-  {
-    "movieId": "2025-movie-b",
-    "panelistId": "france",
-    "score": 7.2,
-    "reviewText": "It’s ridiculous and it knows it. That’s half the battle. The hat deserves its own agent.",
-    "reviewDate": "2026-01-03"
-  },
-  {
-    "movieId": "2025-movie-c",
-    "panelistId": "alex",
-    "score": 5.4,
-    "reviewText": "Two hours of feelings is fine. Two hours of the same feeling is a hostage situation.",
-    "reviewDate": "2026-01-04"
-  },
-
-  {
-    "movieId": "2024-movie-a",
-    "panelistId": "",
-    "score": 6.1,
-    "reviewText": "This is the kind of film that wins awards for being sad in a historically accurate way. I was moved, then immediately hungry.",
-    "reviewDate": "2025-02-10"
-  },
-  {
-    "movieId": "2024-movie-a",
-    "panelistId": "france",
-    "score": 6.8,
-    "reviewText": "I liked it, but it also felt like homework that someone else’s rich parents paid for.",
-    "reviewDate": "2025-02-11"
-  },
-  {
-    "movieId": "2024-movie-b",
-    "panelistId": "",
-    "score": 8.0,
-    "reviewText": "A quiet movie that actually earns quiet. Great pacing. Zero melodrama. I respect the restraint.",
-    "reviewDate": "2025-02-12"
-  },
-  {
-    "movieId": "2024-movie-b",
-    "panelistId": "",
-    "score": 7.0,
-    "reviewText": "Funny enough to justify the trauma. Not a masterpiece, but at least it remembered to be a movie.",
-    "reviewDate": "2025-02-13"
-  },
-  {
-    "movieId": "2024-movie-b",
-    "panelistId": "",
-    "score": 7.0,
-    "reviewText": "Funny enough to justify the trauma. Not a masterpiece, but at least it remembered to be a movie.",
-    "reviewDate": "2025-02-13"
-  },
-  {
     "movieId": "2026-movie-a",
     "panelistId": "zach",
     "score": 7.0,
@@ -75,6 +11,41 @@
     "panelistId": "zach",
     "score": 9.5,
     "reviewText": "Amazing time. Top 5 of all time. I loved the honey bit.",
+    "reviewDate": "2026-01-24"
+  },
+  {
+    "movieId": "2026-movie-c",
+    "panelistId": "noah",
+    "score": 6,
+    "reviewText": "I liked Frankenstein because the monster was blue, and I didn’t like Frankenstein because they play really sappy music at the end",
+    "reviewDate": "2026-01-24"
+  },
+  {
+    "movieId": "2026-movie-e",
+    "panelistId": "noah",
+    "score": 8,
+    "reviewText": "I liked the character-driven approach of one battle after another, and the acting was all great. The long shots during the ending car-chase scene were a great western touch. Leonardo de Caprio’s character falling off a tree will always be pretty funny",
+    "reviewDate": "2026-01-24"
+  },
+  {
+    "movieId": "2026-movie-d",
+    "panelistId": "noah",
+    "score": 7,
+    "reviewText": "I like the songs in Kpop demon hunters and the animation was pretty good for having a low budget",
+    "reviewDate": "2026-01-24"
+  },
+  {
+    "movieId": "2026-movie-f",
+    "panelistId": "noah",
+    "score": "",
+    "reviewText": "My review of Weapons is I didn’t finish it because I thought is was a bit boring",
+    "reviewDate": "2026-01-24"
+  },
+  {
+    "movieId": "2026-movie-f",
+    "panelistId": "zach",
+    "score": "6",
+    "reviewText": "I liked the bit when theh kids tore the witch woman to shreds",
     "reviewDate": "2026-01-24"
   }
 ]

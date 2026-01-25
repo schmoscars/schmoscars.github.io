@@ -1,26 +1,26 @@
 [
   {
     "id": "zach",
-    "name": "Zach Pinto",
-    "bio": "Zach started this website to give the power back to the people. He enjoys watching people do things. He hates blue people. Lives in New York.",
+    "name": "Squire",
+    "bio": "Squire started this website to give the power back to the people. He enjoys watching people do things. He hates blue people. Lives in New York.",
     "imagePath": "./assets/images/panelists/zach.jpeg"
   },
   {
     "id": "oscar",
-    "name": "Oscar Nobel",
-    "bio": "",
+    "name": "Overripebug",
+    "bio": "Overripebug currently works at a startup. Previously graduated with a math degree from Williams College. Enjoys gefilte fish in his free time.",
     "imagePath": "./assets/images/panelists/oscar.jpeg"
   },
   {
     "id": "noah",
     "name": "Noah Quinn",
-    "bio": "",
+    "bio": "Noah is a blue person",
     "imagePath": "./assets/images/panelists/noah.jpeg"
   },
   {
     "id": "jacob",
-    "name": "Jacob Block",
-    "bio": "",
+    "name": "Alejandro Armstrong",
+    "bio": "Alejandro is a student at Columbia University.",
     "imagePath": "./assets/images/panelists/jacob.jpeg"
   }
 ]

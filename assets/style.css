@@ -1009,3 +1009,53 @@ a{ color:inherit; text-decoration:none; }
   color: var(--accent); /* same orange as rest of site */
 }
 
+/* Mobile nav layout */
+@media (max-width: 720px) {
+  .nav-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .brand {
+    justify-content: center;
+  }
+
+  .brand-title {
+    text-align: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    padding: 0 12px;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+}
+
+/* Years page: 2 posters per row on mobile */
+@media (max-width: 720px) {
+  .poster-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .poster-grid .poster-tile {
+    width: 100%;
+  }
+
+  .poster-grid .poster {
+    width: 100%;
+  }
+}
+
+
