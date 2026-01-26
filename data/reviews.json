@@ -3,14 +3,14 @@
     "movieId": "2026-movie-a",
     "panelistId": "zach",
     "score": 7.0,
-    "reviewText": "Good effects, but I don't really like the blue people stuff too much.",
+    "reviewText": "Good effects, but I don't really like the blue people story stuff too much.",
     "reviewDate": "2026-01-24"
   },
   {
     "movieId": "2026-movie-b",
     "panelistId": "zach",
     "score": 9.5,
-    "reviewText": "Amazing time. Top 5 of all time. I loved the honey bit.",
+    "reviewText": "Amazing time. Top 5 of all time. I loved the honey scene.",
     "reviewDate": "2026-01-24"
   },
   {
@@ -44,14 +44,14 @@
   {
     "movieId": "2026-movie-f",
     "panelistId": "zach",
-    "score": "6",
-    "reviewText": "I liked the bit when the kids tore the woman to shreds",
+    "score": "5.5",
+    "reviewText": "I liked the bit when the kids tore the woman to shreds. However, as well-made as it was, I think they spoiled \"the twist\" a bit too early on, and so the rest of the movie felt a bit underwhelming.",
     "reviewDate": "2026-01-24"
   },
   {
     "movieId": "2026-movie-g",
     "panelistId": "sam",
-    "score": "9",
+    "score": "8.5",
     "reviewText": "I really loved Sinners. It’s intense, confident, and way more emotionally grounded than I expected. What stuck with me most is how clearly the film understands that “sin” isn’t neutral—race shapes who gets sympathy, who gets forgiveness, and who’s condemned from the jump.\nThe movie does a great job showing how Black characters are constantly watched, judged, and read as guilty, even in moments of vulnerability. There’s this ongoing tension between being seen and being surveilled, between confession as honesty and confession as something dangerous. None of it feels preachy—the racial themes are baked into the story, the performances, and even how the camera moves.",
     "reviewDate": "2026-01-25"
   }
