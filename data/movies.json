@@ -41,5 +41,12 @@
     "year": 2026,
     "posterPath": "./assets/images/posters/2026/weapons.jpg",
     "nominations": []
+  },
+  {
+    "id": "2026-movie-g",
+    "title": "Sinners",
+    "year": 2026,
+    "posterPath": "./assets/images/posters/2026/sinners.jpg",
+    "nominations": ["Picture", "Cinematography", "Visual Effects"]
   }
 ]
