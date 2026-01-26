@@ -167,8 +167,15 @@ function renderPanelistsPage({ panelists, reviews }) {
     if (reviewCounts.has(k)) reviewCounts.set(k, reviewCounts.get(k) + 1);
   }
 
+  const sortedPanelists = [...panelists].sort((a, b) => {
+  const ca = reviewCounts.get(String(a.id)) ?? 0;
+  const cb = reviewCounts.get(String(b.id)) ?? 0;
+  if (cb !== ca) return cb - ca;                // most reviews first
+  return String(a.name).localeCompare(String(b.name)); // tie-break
+  });
+
   host.innerHTML = "";
-  for (const p of panelists) {
+  for (const p of sortedPanelists) {
     const count = reviewCounts.get(String(p.id)) ?? 0;
     const card = document.createElement("a");
     card.className = "panelist-card";

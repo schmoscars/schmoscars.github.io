@@ -1,7 +1,7 @@
 [
   {
     "id": "zach",
-    "name": "Squire",
+    "name": "Squire von Trotter",
     "bio": "Squire started this website to give the power back to the people. He enjoys watching people do things. Lives in New York.",
     "imagePath": "./assets/images/panelists/zach.jpeg"
   },
@@ -14,7 +14,7 @@
   {
     "id": "noah",
     "name": "Noah Quinn",
-    "bio": "Noah is a blue person",
+    "bio": "Noah is a blue person.",
     "imagePath": "./assets/images/panelists/noah.jpeg"
   },
   {
