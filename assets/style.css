@@ -1124,3 +1124,11 @@ a{ color:inherit; text-decoration:none; }
   }
 }
 
+/* Selected category text smaller on small screens */
+@media (max-width: 600px) {
+  .filter-wrap.award .filter-select.is-compact {
+    font-size: 18px !important;   /* adjust to taste */
+  }
+}
+
+
