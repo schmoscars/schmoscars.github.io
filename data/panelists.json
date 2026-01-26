@@ -20,13 +20,13 @@
   {
     "id": "jacob",
     "name": "Alejandro Armstrong",
-    "bio": "Jake Block is a native of Ballston Spa New York, founded by the Methodist Minister Ephraim Ball in 1872. Ball had 8 children, only 2 of whom—Onan and Lot—survived to adulthood. Ball died destitute in a whore house in 1901, riddled with clamidia. ",
+    "bio": "Jake Block is a native of Ballston Spa New York, founded by the Methodist Minister Ephraim Ball in 1872. Ball had 8 children, only 2 of whom—Onan and Lot—survived to adulthood. Ball died destitute in a whore house in 1901, riddled with clamidia.",
     "imagePath": "./assets/images/panelists/jacob.jpeg"
   },
   {
     "id": "beau",
     "name": "Beau Welch",
-    "bio": "",
+    "bio": "Beau believes that a film is only as good as its story and narrative structure, screenwriting, directing, performances, cinematography, score, editing, production design, FX, emotional and intellectual impact, cultural and historical context, and overall cohesion.",
     "imagePath": "./assets/images/panelists/beau.jpeg"
   }
 ]
