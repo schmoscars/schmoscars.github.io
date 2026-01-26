@@ -6,10 +6,10 @@
     "imagePath": "./assets/images/panelists/zach.jpeg"
   },
   {
-    "id": "oscar",
-    "name": "Overripebug",
-    "bio": "Overripebug currently works at a startup. Previously graduated with a math degree from Williams College. Enjoys gefilte fish in his free time.",
-    "imagePath": "./assets/images/panelists/oscar.jpeg"
+    "id": "sam",
+    "name": "Schmam Schmackner",
+    "bio": "Schmam works in education and is quite prominent in activist circles. He approaches films from a Marxist perspecive.",
+    "imagePath": "./assets/images/panelists/sam.jpeg"
   },
   {
     "id": "noah",
@@ -22,5 +22,11 @@
     "name": "Alejandro Armstrong",
     "bio": "Jake Block is a native of Ballston Spa New York, founded by the Methodist Minister Ephraim Ball in 1872. Ball had 8 children, only 2 of whom—Onan and Lot—survived to adulthood. Ball died destitute in a whore house in 1901, riddled with clamidia. ",
     "imagePath": "./assets/images/panelists/jacob.jpeg"
+  },
+  {
+    "id": "beau",
+    "name": "Beau Welch",
+    "bio": "",
+    "imagePath": "./assets/images/panelists/beau.jpeg"
   }
 ]
