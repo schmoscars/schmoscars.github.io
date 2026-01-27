@@ -208,6 +208,8 @@ function renderMoviePage({ panelists, movies, reviews }) {
   if (!id) return;
 
   const movie = movies.find((m) => String(m.id) === String(id));
+  document.title = `${movie.title} · Schmoscars`;
+
   if (!movie) return;
 
   const movieReviews = reviews.filter((r) => String(r.movieId) === String(movie.id));
@@ -272,6 +274,7 @@ function renderPanelistPage({ panelists, movies, reviews }) {
   if (!id) return;
 
   const panelist = panelists.find((p) => String(p.id) === String(id));
+  document.title = `${panelist.name} · Schmoscars`;
   if (!panelist) return;
 
   const nameEl = $("#panelist-name");
