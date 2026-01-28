@@ -48,5 +48,33 @@
     "year": 2026,
     "posterPath": "./assets/images/posters/2026/sinners.jpg",
     "nominations": ["Picture", "Cinematography", "Visual Effects"]
+  },
+  {
+    "id": "2026-movie-h",
+    "title": "Bugonia",
+    "year": 2026,
+    "posterPath": "./assets/images/posters/2026/bugonia.jpg",
+    "nominations": ["Picture"]
+  },
+  {
+    "id": "2026-movie-i",
+    "title": "F1",
+    "year": 2026,
+    "posterPath": "./assets/images/posters/2026/f1.jpg",
+    "nominations": ["Picture", "Visual Effects"]
+  },
+  {
+    "id": "2026-movie-j",
+    "title": "Train Dreams",
+    "year": 2026,
+    "posterPath": "./assets/images/posters/2026/train_dreams.jpg",
+    "nominations": ["Picture", "Cinematography"]
+  },
+  {
+    "id": "2026-movie-k",
+    "title": "The Perfect Neighbor",
+    "year": 2026,
+    "posterPath": "./assets/images/posters/2026/the_perfect_neighbor.jpg",
+    "nominations": ["Documentary Feature Film"]
   }
 ]
