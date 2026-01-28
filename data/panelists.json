@@ -30,7 +30,13 @@
     "name": "Noah Quinn",
     "bio": "Noah is a blue person.",
     "imagePath": "./assets/images/panelists/noah.jpeg",
-    "topMovies": ""
+    "topMovies": [
+      "Tokyo Story",
+      "Parasite",
+      "La Casa Lobo",
+      "The Tale of Princess Kaguya",
+      "Fargo"
+    ]
   },
   {
     "id": "jacob",
