@@ -1143,4 +1143,11 @@ body[data-page="panelists"] .panelist-body { display:flex; flex-direction:column
   margin-top: 32px;
 }
 
+.panelist-avg {
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgb(214, 143, 48);
+  font-weight: 600;
+}
+
 

@@ -63,6 +63,19 @@ function computeMovieAverages(movies, reviews) {
   return avg;
 }
 
+function computePanelistAverage(panelistId, reviews) {
+  const scores = reviews
+    .filter(r => String(r.panelistId) === String(panelistId))
+    .map(r => Number(r.score))
+    .filter(n => Number.isFinite(n));
+
+  if (!scores.length) return null;
+
+  const avg = scores.reduce((a, b) => a + b, 0) / scores.length;
+  return avg.toFixed(1);
+}
+
+
 function buildPosterTile(movie, activeAward) {
   const a = document.createElement("a");
   a.href = `movie.html?id=${encodeURIComponent(movie.id)}`;
@@ -176,6 +189,7 @@ function renderPanelistsPage({ panelists, reviews }) {
 
   host.innerHTML = "";
   for (const p of sortedPanelists) {
+    const avgRating = computePanelistAverage(p.id, reviews);
     const count = reviewCounts.get(String(p.id)) ?? 0;
     const top = Array.isArray(p.topMovies) && p.topMovies.length
     ? `
@@ -203,6 +217,12 @@ function renderPanelistsPage({ panelists, reviews }) {
       <div class="panelist-body">
         <div>
           <h2 class="panelist-name">${escapeHtml(p.name)}</h2>
+          ${avgRating ? `
+            <div class="panelist-avg">
+              Average Rating Given: ${avgRating}
+            </div>
+          ` : ""}
+   
           <p class="panelist-bio">${escapeHtml(p.bio || "")}</p>
         </div>
       
@@ -295,6 +315,14 @@ function renderPanelistPage({ panelists, movies, reviews }) {
   if (!id) return;
 
   const panelist = panelists.find((p) => String(p.id) === String(id));
+  const avgRating = computePanelistAverage(panelist.id, reviews);
+
+  const avgEl = $("#panelist-avg");
+  if (avgEl && avgRating) {
+    avgEl.textContent = `Average rating given: ${avgRating}`;
+  }
+
+
   if (!panelist) return;
 
   document.title = `${panelist.name} · Schmoscars`;
