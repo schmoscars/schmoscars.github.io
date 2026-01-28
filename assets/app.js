@@ -263,7 +263,7 @@ function renderMoviePage({ panelists, movies, reviews }) {
         <div class="review-panelist">${escapeHtml(p.name)}</div>
         <div class="review-score">${scoreText} / 10.0</div>
       </div>
-      <p class="review-text">${escapeHtml(r.reviewText || "")}</p>
+      <p class="review-text">${r.reviewText || ""}</p>
     `;
     host.appendChild(row);
   }
@@ -336,7 +336,7 @@ function renderPanelistPage({ panelists, movies, reviews }) {
         </div>
         <div class="panelist-review-score">${scoreText} / 10.0</div>
       </div>
-      <p class="panelist-review-text">${escapeHtml(r.reviewText || "")}</p>
+      <p class="panelist-review-text">${r.reviewText || ""}</p>
     `;
 
     host.appendChild(a);
