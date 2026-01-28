@@ -1131,4 +1131,16 @@ a{ color:inherit; text-decoration:none; }
   }
 }
 
+/* Panelists cards: keep footer + Top5 pinned with consistent bottom padding */
+body[data-page="panelists"] .panelist-body { display:flex; flex-direction:column; justify-content:space-between; }
+
+.top-movie {
+  white-space: nowrap;
+  display: inline;
+}
+
+.panelist-top-movies {
+  margin-top: 32px;
+}
+
 

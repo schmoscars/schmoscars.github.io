@@ -3,36 +3,66 @@
     "id": "zach",
     "name": "Squire von Trotter",
     "bio": "Squire started this website to give the power back to the people. He enjoys watching people do things. Lives in New York.",
-    "imagePath": "./assets/images/panelists/zach.jpeg"
+    "imagePath": "./assets/images/panelists/zach.jpeg",
+    "topMovies": [
+      "Bandersnatch",
+      "All Quiet on the Western Front",
+      "Marty Supreme",
+      "Do the Right Thing",
+      "Borat"
+    ]
   },
   {
     "id": "sam",
     "name": "Sambones",
     "bio": "Sam grew up in New York City and now based in DC. He's a teacher with a love for thrillers and mysteries—especially films that reward close attention and bold storytelling.",
-    "imagePath": "./assets/images/panelists/sam.jpeg"
+    "imagePath": "./assets/images/panelists/sam.jpeg",
+    "topMovies": [
+      "Vertigo",
+      "Parasite",
+      "Little Miss Sunshine",
+      "Nope",
+      "The Godfather Part II"
+    ]
   },
   {
     "id": "noah",
     "name": "Noah Quinn",
     "bio": "Noah is a blue person.",
-    "imagePath": "./assets/images/panelists/noah.jpeg"
+    "imagePath": "./assets/images/panelists/noah.jpeg",
+    "topMovies": ""
   },
   {
     "id": "jacob",
     "name": "Alejandro Armstrong",
     "bio": "Alejandro is a native of Saulston Spa, New York, founded by the Methodist Minister Ahab Saul in 1872. Saul had 8 children, only 2 of whom—Onan and Lot—survived to adulthood. Saul died destitute 1901, riddled with smallpox.",
-    "imagePath": "./assets/images/panelists/jacob.jpeg"
+    "imagePath": "./assets/images/panelists/jacob.jpeg",
+    "topMovies": ""
   },
   {
     "id": "beau",
     "name": "Dennis Howerton",
     "bio": "Dennis believes that a film is only as good as its story and narrative structure, screenwriting, directing, performances, cinematography, score, editing, production design, FX, emotional and intellectual impact, cultural and historical context, and overall cohesion.",
-    "imagePath": "./assets/images/panelists/beau.jpeg"
+    "imagePath": "./assets/images/panelists/beau.jpeg",
+    "topMovies": [
+      "There Will Be Blood",
+      "It's a Wonderful Life",
+      "12 Angry Men",
+      "Sling Blade",
+      "American Psycho"
+    ]
   },
   {
     "id": "stephan",
     "name": "Steven Washbug",
     "bio": "Washbug is a professional video editor based in New York. He can also ski very well.",
-    "imagePath": "./assets/images/panelists/stephan.jpeg"
+    "imagePath": "./assets/images/panelists/stephan.jpeg",
+    "topMovies": [
+      "Whiplash",
+      "Oppenheimer",
+      "Apocalypse Now",
+      "The Social Network",
+      "Spirited Away"
+    ]
   }
 ]

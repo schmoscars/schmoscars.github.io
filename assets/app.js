@@ -177,6 +177,21 @@ function renderPanelistsPage({ panelists, reviews }) {
   host.innerHTML = "";
   for (const p of sortedPanelists) {
     const count = reviewCounts.get(String(p.id)) ?? 0;
+    const top = Array.isArray(p.topMovies) && p.topMovies.length
+    ? `
+      <div class="panelist-review-text panelist-top-movies">
+        <span style="font-weight:600;">Top 5 Favorite Films:</span>
+        <span class="top-movies-inline">
+          ${p.topMovies
+            .map((t, i) => `
+              <span class="top-movie">${escapeHtml(t)}${i < p.topMovies.length - 1 ? "," : ""}</span>
+            `)
+            .join(" ")}
+        </span>
+      </div>
+    `
+    : "";
+
     const card = document.createElement("a");
     card.className = "panelist-card";
     card.href = `panelist.html?id=${encodeURIComponent(p.id)}`;
@@ -186,18 +201,24 @@ function renderPanelistsPage({ panelists, reviews }) {
         ${p.imagePath ? `<img src="${p.imagePath}" alt="${escapeHtml(p.name)} photo" />` : ""}
       </div>
       <div class="panelist-body">
-        <h2 class="panelist-name">${escapeHtml(p.name)}</h2>
-        <p class="panelist-bio">${escapeHtml(p.bio || "")}</p>
-
-        <div class="panelist-footer">
-          <div><span style="color:var(--accent); font-weight:600;">${count}</span> reviews</div>
-          <div style="flex:1;"></div>
-          <div>
-            <span style="color:var(--accent); font-weight:600;">READ REVIEWS</span>
-            <span class="arrow">→</span>
-          </div>
+        <div>
+          <h2 class="panelist-name">${escapeHtml(p.name)}</h2>
+          <p class="panelist-bio">${escapeHtml(p.bio || "")}</p>
         </div>
-      </div>
+      
+        <div>
+          <div class="panelist-footer">
+            <div><span style="color:var(--accent); font-weight:600;">${count}</span> reviews</div>
+            <div style="flex:1;"></div>
+            <div>
+              <span style="color:var(--accent); font-weight:600;">READ REVIEWS</span>
+              <span class="arrow">→</span>
+            </div>
+          </div>
+    ${top}
+  </div>
+</div>
+
     `;
     host.appendChild(card);
   }
@@ -208,9 +229,9 @@ function renderMoviePage({ panelists, movies, reviews }) {
   if (!id) return;
 
   const movie = movies.find((m) => String(m.id) === String(id));
-  document.title = `${movie.title} · Schmoscars`;
-
   if (!movie) return;
+
+  document.title = `${movie.title} · Schmoscars`;
 
   const movieReviews = reviews.filter((r) => String(r.movieId) === String(movie.id));
 
@@ -274,8 +295,9 @@ function renderPanelistPage({ panelists, movies, reviews }) {
   if (!id) return;
 
   const panelist = panelists.find((p) => String(p.id) === String(id));
-  document.title = `${panelist.name} · Schmoscars`;
   if (!panelist) return;
+
+  document.title = `${panelist.name} · Schmoscars`;
 
   const nameEl = $("#panelist-name");
   const taglineEl = $("#panelist-tagline");
@@ -291,6 +313,18 @@ function renderPanelistPage({ panelists, movies, reviews }) {
     avatarEl.innerHTML = panelist.imagePath
       ? `<img src="${panelist.imagePath}" alt="${escapeHtml(panelist.name)} photo" loading="lazy" />`
       : "";
+  }
+  const topMoviesEl = $("#panelist-top-movies");
+
+  if (topMoviesEl && Array.isArray(panelist.topMovies) && panelist.topMovies.length) {
+    topMoviesEl.innerHTML = `
+      <span class="panelist-review-text" style="font-weight:600;">
+        Top 5 Favorite Films:
+      </span>
+      <i class="panelist-review-text">
+        ${panelist.topMovies.join(", ")}
+      </i>
+    `;
   }
 
   const mine = reviews
