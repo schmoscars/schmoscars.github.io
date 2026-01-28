@@ -8,7 +8,7 @@
       "Bandersnatch",
       "All Quiet on the Western Front",
       "Marty Supreme",
-      "Do the Right Thing",
+      "Monty Python and the Holy Grail",
       "Borat"
     ]
   },
@@ -28,7 +28,7 @@
   {
     "id": "noah",
     "name": "Noah Quinn",
-    "bio": "Noah is a blue person.",
+    "bio": "Noah has been interested in movies from a very young age. Like all of you, Noah is filled with rage at the idea of movies not getting the attention they deserve.",
     "imagePath": "./assets/images/panelists/noah.jpeg",
     "topMovies": [
       "Tokyo Story",
@@ -43,7 +43,13 @@
     "name": "Alejandro Armstrong",
     "bio": "Alejandro is a native of Saulston Spa, New York, founded by the Methodist Minister Ahab Saul in 1872. Saul had 8 children, only 2 of whom—Onan and Lot—survived to adulthood. Saul died destitute 1901, riddled with smallpox.",
     "imagePath": "./assets/images/panelists/jacob.jpeg",
-    "topMovies": ""
+    "topMovies": [
+      "12 Angry Men",
+      "Arrival",
+      "Omar",
+      "Punch Drunk Love",
+      "Monty Python and the Holy Grail"
+    ]
   },
   {
     "id": "beau",
