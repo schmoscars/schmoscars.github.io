@@ -161,6 +161,20 @@
     "reviewDate": "2026"
   },
   {
+    "movieId": "2026-movie-a",
+    "panelistId": "stephan",
+    "score": "6.5",
+    "reviewText": "The third of the Avatar series was one I was genuinely excited for, after I was pleasantly surprised by the long awaited sequel, “The Way of Water” in 2022. James Cameron has crafted a now iconic world inside and out, and is still showing the audience that there’s more to it with each entry. However, I found that the plot of this film follows very similar beats to the previous two entries, leaving me wanting a lot more and restless during its 3+ hour runtime. Thankfully, the performances by Sam Worthington, Zoe Saldana, and Stephen Lang always impress and really carry this film. I’ll always be happy to see them on screen in these films should Cameron choose to continue the series.",
+    "reviewDate": "2026"
+  },
+  {
+    "movieId": "2026-movie-f",
+    "panelistId": "stephan",
+    "score": "7",
+    "reviewText": "Unfortunately, I was late to the viewing hype of this film, so I went in with somewhat high expectations, as are most of my experiences with horror these days after the Ari Aster renaissance of the late 2010s.\nWeapons surprised me with its shifting narrative perspectives between each main character, however I believe this dragged the pacing a bit and left me feeling antsy about where each storyline was heading. I think the framing was supposed to mimic that of a “Whodunit” film, but I found myself less intrigued in the mystery by the time the bulk of the plot had progressed. That said, Weapons is a solid entry in the horror genre, and I’d happily rewatch it to pick up elements that I missed.",
+    "reviewDate": "2026"
+  },
+  {
     "movieId": "",
     "panelistId": "",
     "score": "",
