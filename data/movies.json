@@ -296,6 +296,14 @@
     "favoriteBy": ["stephan"]
   },
   {
+    "id": "favorites-27",
+    "title": "Burning",
+    "year": "2018",
+    "posterPath": "./assets/images/posters/favorites/burning.jpg",
+    "nominations": [""],
+    "favoriteBy": ["noah"]
+  },
+  {
     "id": "",
     "title": "",
     "year": "",
