@@ -1150,3 +1150,29 @@ body[data-page="panelists"] .panelist-body { display:flex; flex-direction:column
   font-weight: 600;
 }
 
+@media (max-width: 480px) {
+  /* Panelist name size (edit the px) */
+  body[data-page="panelist"] #panelist-name {
+    font-size: 18px !important;
+    line-height: 1.05 !important;
+    margin-top: 5px;
+  }
+
+  /* “Average rating given” size (edit the px) */
+  body[data-page="panelist"] #panelist-avg {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Top 5 block (what we already fixed) */
+  body[data-page="panelist"] #panelist-top-movies .panelist-review-text {
+    font-size: 9px !important;
+    line-height: 1.35 !important;
+  }
+
+  body[data-page="panelist"] #panelist-top-movies i.panelist-review-text {
+    display: inline !important;
+  }
+}
+
+

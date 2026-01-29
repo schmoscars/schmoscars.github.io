@@ -374,12 +374,13 @@ function renderPanelistPage({ panelists, movies, reviews }) {
   if (emptyEl) emptyEl.style.display = "none";
 
   // Optional: sort by year desc, then title
+  // sort by review date (latest first)
   mine.sort((a, b) => {
-    const ay = Number(a.movie.year) || 0;
-    const by = Number(b.movie.year) || 0;
-    if (by !== ay) return by - ay;
-    return String(a.movie.title).localeCompare(String(b.movie.title));
+    const da = new Date(a.r.reviewDate || 0);
+    const db = new Date(b.r.reviewDate || 0);
+    return db - da;
   });
+
 
   host.innerHTML = "";
 
