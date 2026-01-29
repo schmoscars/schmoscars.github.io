@@ -4,7 +4,8 @@
     "title": "Avatar: Fire and Ash",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/avatar-fire-and-ash.jpg",
-    "nominations": ["Costume Design", "Visual Effects"]
+    "nominations": ["Costume Design", "Visual Effects"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-b",
@@ -12,69 +13,159 @@
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/marty-supreme.jpg",
     "nominations": ["Actor", "Casting", "Cinematography", "Costume Design", "Director", "Film Editing",
-    "Picture", "Production Design", "Original Screenplay"]
+    "Picture", "Production Design", "Original Screenplay"],
+    "favoriteBy": ["zach"]
   },
   {
     "id": "2026-movie-c",
     "title": "Frankenstein",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/frankenstein.jpg",
-    "nominations": ["Picture", "Cinematography"]
+    "nominations": ["Picture", "Cinematography"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-d",
     "title": "KPop Demon Hunters",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/kpop_demon_hunters.jpg",
-    "nominations": ["Animated Feature"]
+    "nominations": ["Animated Feature"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-e",
     "title": "One Battle After Another",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/one_battle_after_another.jpg",
-    "nominations": ["Picture", "Cinematography"]
+    "nominations": ["Picture", "Cinematography"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-f",
     "title": "Weapons",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/weapons.jpg",
-    "nominations": []
+    "nominations": [],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-g",
     "title": "Sinners",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/sinners.jpg",
-    "nominations": ["Picture", "Cinematography", "Visual Effects"]
+    "nominations": ["Picture", "Cinematography", "Visual Effects"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-h",
     "title": "Bugonia",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/bugonia.jpg",
-    "nominations": ["Picture"]
+    "nominations": ["Picture"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-i",
     "title": "F1",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/f1.jpg",
-    "nominations": ["Picture", "Visual Effects"]
+    "nominations": ["Picture", "Visual Effects"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-j",
     "title": "Train Dreams",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/train_dreams.jpg",
-    "nominations": ["Picture", "Cinematography"]
+    "nominations": ["Picture", "Cinematography"],
+    "favoriteBy": []
   },
   {
     "id": "2026-movie-k",
     "title": "The Perfect Neighbor",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/the_perfect_neighbor.jpg",
-    "nominations": ["Documentary Feature Film"]
+    "nominations": ["Documentary Feature Film"],
+    "favoriteBy": []
+  },
+  {
+    "id": "favorites-1",
+    "title": "Little Miss Sunshine",
+    "year": 2006,
+    "posterPath": "./assets/images/posters/favorites/little_miss_sunshine.jpg",
+    "nominations": [""],
+    "favoriteBy": ["sam"]
+  },
+  {
+    "id": "favorites-2",
+    "title": "Nope",
+    "year": 2022,
+    "posterPath": "./assets/images/posters/favorites/nope.jpg",
+    "nominations": [""],
+    "favoriteBy": ["sam"]
+  },
+  {
+    "id": "favorites-3",
+    "title": "Parasite",
+    "year": 2019,
+    "posterPath": "./assets/images/posters/favorites/parasite.jpg",
+    "nominations": ["Picture", "International Feature"],
+    "favoriteBy": ["sam"]
+  },
+  {
+    "id": "favorites-4",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "posterPath": "./assets/images/posters/favorites/the_godfather_pt_2.jpg",
+    "nominations": ["Picture"],
+    "favoriteBy": ["sam"]
+  },
+  {
+    "id": "favorites-5",
+    "title": "Vertigo",
+    "year": 1958,
+    "posterPath": "./assets/images/posters/favorites/vertigo.jpg",
+    "nominations": [""],
+    "favoriteBy": ["sam"]
+  },
+  {
+    "id": "favorites-6",
+    "title": "All Quiet on the Western Front",
+    "year": "2022",
+    "posterPath": "./assets/images/posters/favorites/all_quiet_on_the_western_front.jpg",
+    "nominations": ["International Feature", "Cinematography"],
+    "favoriteBy": ["zach"]
+  },
+  {
+    "id": "favorites-7",
+    "title": "Bandersnatch",
+    "year": "2018",
+    "posterPath": "./assets/images/posters/favorites/bandersnatch.jpg",
+    "nominations": [""],
+    "favoriteBy": ["zach"]
+  },
+  {
+    "id": "favorites-8",
+    "title": "Borat",
+    "year": "2006",
+    "posterPath": "./assets/images/posters/favorites/borat.jpg",
+    "nominations": [""],
+    "favoriteBy": ["zach"]
+  },
+  {
+    "id": "favorites-9",
+    "title": "Monty Python and the Holy Grail",
+    "year": "1975",
+    "posterPath": "./assets/images/posters/favorites/monty_python.jpg",
+    "nominations": [""],
+    "favoriteBy": ["zach"]
+  },
+  {
+    "id": "",
+    "title": "",
+    "year": "",
+    "posterPath": "",
+    "nominations": [""],
+    "favoriteBy": []
   }
 ]

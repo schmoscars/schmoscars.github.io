@@ -112,6 +112,7 @@ function renderHome({ years }) {
 }
 
 function renderYearsPage({ years, movies, reviews }) {
+  const FAVORITES_VALUE = "__favorites__";
   const yearSelect = $("#year-select");
   const awardSelect = $("#award-select");
   const grid = $("#movies-grid");
@@ -124,26 +125,34 @@ function renderYearsPage({ years, movies, reviews }) {
     "All Categories",
     "Picture",
     "Animated Feature",
-    "International Feature Film",
-    "Documentary Feature Film",
+    "International Feature",
+    "Documentary Feature",
     "Cinematography",
     "Visual Effects",
   ];
 
-  yearSelect.innerHTML = years.map((y) => `<option value="${y}">${y}</option>`).join("");
+  yearSelect.innerHTML =
+  `<option value="${FAVORITES_VALUE}">Panelist Favorites</option>` +
+  years.map((y) => `<option value="${y}">${y}</option>`).join("");
   awardSelect.innerHTML = OSCAR_CATEGORIES.map((c) => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("");
 
   const initialYear = getParam("year") || String(years[0] ?? "");
+  if (initialYear === "favorites") yearSelect.value = FAVORITES_VALUE;
+  else if (initialYear) yearSelect.value = initialYear;
+
   if (initialYear) yearSelect.value = initialYear;
 
   const initialAward = getParam("award") || "All Categories";
   awardSelect.value = initialAward;
 
   function refresh() {
-    const year = Number(yearSelect.value);
+    const yearValue = yearSelect.value;
     const award = awardSelect.value === "All Categories" ? null : awardSelect.value;
 
-    const yearMovies = movies.filter((m) => Number(m.year) === year);
+    const yearMovies =
+      yearValue === FAVORITES_VALUE
+        ? movies.filter((m) => Array.isArray(m.favoriteBy) && m.favoriteBy.length > 0)
+        : movies.filter((m) => Number(m.year) === Number(yearValue));
 
     const filtered = award
       ? yearMovies.filter((m) => Array.isArray(m.nominations) && m.nominations.includes(award))
@@ -152,9 +161,9 @@ function renderYearsPage({ years, movies, reviews }) {
     grid.innerHTML = "";
     for (const m of filtered) grid.appendChild(buildPosterTile(m, award));
 
-    // reviewed count (unique movies with at least one review)
+    // reviewed count should match current filters (year + award)
     const reviewedSet = new Set(reviews.map((r) => String(r.movieId)));
-    const reviewedCount = yearMovies.filter((m) => reviewedSet.has(String(m.id))).length;
+    const reviewedCount = filtered.filter((m) => reviewedSet.has(String(m.id))).length;
 
     if (yearStats) yearStats.textContent = `${reviewedCount} nominees reviewed`;
     if (awardStats) awardStats.textContent = award ? `Filtering: ${award}` : `All categories`;

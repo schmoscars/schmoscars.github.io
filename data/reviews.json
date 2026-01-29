@@ -175,6 +175,69 @@
     "reviewDate": "2026-01-29"
   },
   {
+    "movieId": "favorites-1",
+    "panelistId": "sam",
+    "score": "10",
+    "reviewText": "This movie is such a comfort watch. Everyone in the family is kind of a mess, but that’s what makes it work. It’s genuinely funny, but also really sweet in a low-key way. The pageant scene is perfect chaos and somehow turns into this big moment about loving each other exactly as you are.",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-2",
+    "panelistId": "sam",
+    "score": "10",
+    "reviewText": "This one is creepy in a slow, unsettling way. It’s about our obsession with watching, filming, and turning everything into a moment—even when it’s dangerous. The alien is scary because it doesn’t care about humans at all. It’s less about jump scares and more about this constant feeling that something is wrong.",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-3",
+    "panelistId": "sam",
+    "score": "10",
+    "reviewText": "One of those movies where you have no idea where it’s going, and that’s what makes it so good. It’s funny, tense, uncomfortable, and then suddenly devastating. The way it shows class differences feels real and sharp without spelling anything out. Every little detail pays off, and the ending hits hard because it feels unavoidable.",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-4",
+    "panelistId": "sam",
+    "score": "10",
+    "reviewText": "This movie is heavy but so worth it. Watching Michael become colder and more alone while gaining more power is brutal. The scenes of young Vito make the contrast even sadder, showing how far everything has fallen. By the end, Michael has won—but it feels like the worst kind of win",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-5",
+    "panelistId": "sam",
+    "score": "10",
+    "reviewText": "This movie gets under your skin in a really quiet way. It’s not a love story at all—it’s about obsession and how creepy it is to try to turn someone into an idea instead of a person. The visuals feel hazy and dreamlike, like you’re stuck in someone else’s head, and the ending just leaves you feeling unsettled. It lingers long after it’s over.",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-6",
+    "panelistId": "zach",
+    "score": "9.5",
+    "reviewText": "While this is a (second) remake of the original film (based on a novel), it was a bit prescient how this came out the same year Russia invaded Ukraine. The movie focuses on the characters most people should consider to be the bad guys, and how they fall prey to nationalist propaganda urging them to invade a foreign country. It does a very good job at showing the brutality of war - in fact, I wish it had gone even further at this task. So much went wrong in the 20th century, and it's kind of depressing to see just one front in the first of two world wars play out at such an extreme scale; the number of very young men returning home in bodybags to WW1 Germany was insane - and again - these are the bad guys you're not supposed to be cheering for. One fun fact about this movie is that it shows some of the soldiers deserting Germany and getting shot for doing so, presumably to make you empathize with these characters. But in reality, this hardly ever happened, which I guess only further illustrates the propaganda young men faced in this period.",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-7",
+    "panelistId": "zach",
+    "score": "9.5",
+    "reviewText": "This is an interactive film which presents scenes based on decisions you select for the main character to make. This film is very interesting because there's a total of over 5 hours of runtime, but you're only going to experience around 90 minutes in a single viewing. I really enjoyed <i>Bandersnatch</i> because it really helps you understand the concept of free will and it truly may not exist (I believe it probably does not). And it's more or less fairly realistic how just a few differences in initial choices can indeed influence long-term outcomes. In my opinion, children should be shown this film in schools to understand the importance of choices, and maybe to give them some initial existential terror at the thought of the lack of free will.",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-8",
+    "panelistId": "zach",
+    "score": "9.5",
+    "reviewText": "There's little else to say about <i>Borat</i> other than that Sacha Baron Cohen is a genius manipulator and master planner. He deserves a very unique Academy Award that does not exist. It also kind of gives me nostalgia for the early-2000s era when comedy was a bit more...unrestrained.",
+    "reviewDate": "2026-01-29"
+  },
+  {
+    "movieId": "favorites-9",
+    "panelistId": "zach",
+    "score": "9.5",
+    "reviewText": "Timeless classic. I love Early Medieval England too, so it's basically like a funny history lesson.",
+    "reviewDate": "2026-01-29"
+  },
+  {
     "movieId": "",
     "panelistId": "",
     "score": "",
