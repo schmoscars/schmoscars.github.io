@@ -4,7 +4,7 @@
     "title": "Avatar: Fire and Ash",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/avatar-fire-and-ash.jpg",
-    "nominations": ["Costume Design", "Visual Effects"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -12,8 +12,7 @@
     "title": "Marty Supreme",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/marty-supreme.jpg",
-    "nominations": ["Actor", "Casting", "Cinematography", "Costume Design", "Director", "Film Editing",
-    "Picture", "Production Design", "Original Screenplay"],
+    "nominations": [],
     "favoriteBy": ["zach"]
   },
   {
@@ -21,7 +20,7 @@
     "title": "Frankenstein",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/frankenstein.jpg",
-    "nominations": ["Picture", "Cinematography"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -29,7 +28,7 @@
     "title": "KPop Demon Hunters",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/kpop_demon_hunters.jpg",
-    "nominations": ["Animated Feature"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -37,7 +36,7 @@
     "title": "One Battle After Another",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/one_battle_after_another.jpg",
-    "nominations": ["Picture", "Cinematography"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -53,7 +52,7 @@
     "title": "Sinners",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/sinners.jpg",
-    "nominations": ["Picture", "Cinematography", "Visual Effects"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -61,7 +60,7 @@
     "title": "Bugonia",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/bugonia.jpg",
-    "nominations": ["Picture"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -69,7 +68,7 @@
     "title": "F1",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/f1.jpg",
-    "nominations": ["Picture", "Visual Effects"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -77,7 +76,7 @@
     "title": "Train Dreams",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/train_dreams.jpg",
-    "nominations": ["Picture", "Cinematography"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
@@ -85,7 +84,7 @@
     "title": "The Perfect Neighbor",
     "year": 2025,
     "posterPath": "./assets/images/posters/2026/the_perfect_neighbor.jpg",
-    "nominations": ["Documentary Feature Film"],
+    "nominations": [],
     "favoriteBy": []
   },
   {
