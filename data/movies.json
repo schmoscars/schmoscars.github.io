@@ -158,7 +158,143 @@
     "year": "1975",
     "posterPath": "./assets/images/posters/favorites/monty_python.jpg",
     "nominations": [""],
-    "favoriteBy": ["zach"]
+    "favoriteBy": ["zach", "jacob"]
+  },
+  {
+    "id": "favorites-10",
+    "title": "12 Angry Men",
+    "year": "1957",
+    "posterPath": "./assets/images/posters/favorites/12_angry_men.jpg",
+    "nominations": [""],
+    "favoriteBy": ["beau", "jacob"]
+  },
+  {
+    "id": "favorites-11",
+    "title": "American Psycho",
+    "year": "2000",
+    "posterPath": "./assets/images/posters/favorites/american_psycho.jpg",
+    "nominations": [""],
+    "favoriteBy": ["beau"]
+  },
+  {
+    "id": "favorites-12",
+    "title": "Apocalypse Now",
+    "year": "1979",
+    "posterPath": "./assets/images/posters/favorites/apocalypse_now.jpg",
+    "nominations": ["Cinematography"],
+    "favoriteBy": ["stephan"]
+  },
+  {
+    "id": "favorites-13",
+    "title": "Arrival",
+    "year": "2016",
+    "posterPath": "./assets/images/posters/favorites/arrival.jpg",
+    "nominations": [""],
+    "favoriteBy": ["jacob"]
+  },
+  {
+    "id": "favorites-14",
+    "title": "Fargo",
+    "year": "2014",
+    "posterPath": "./assets/images/posters/favorites/fargo.jpg",
+    "nominations": [""],
+    "favoriteBy": ["noah"]
+  },
+  {
+    "id": "favorites-15",
+    "title": "It's a Wonderful Life",
+    "year": "1946",
+    "posterPath": "./assets/images/posters/favorites/its_a_wonderful_life.jpg",
+    "nominations": [""],
+    "favoriteBy": ["beau"]
+  },
+  {
+    "id": "favorites-16",
+    "title": "La Casa Lobo",
+    "year": "2018",
+    "posterPath": "./assets/images/posters/favorites/la_casa_lobo.jpg",
+    "nominations": [""],
+    "favoriteBy": ["noah"]
+  },
+  {
+    "id": "favorites-17",
+    "title": "Omar",
+    "year": "2013",
+    "posterPath": "./assets/images/posters/favorites/omar.jpg",
+    "nominations": [""],
+    "favoriteBy": ["jacob"]
+  },
+  {
+    "id": "favorites-18",
+    "title": "Oppenheimer",
+    "year": "2023",
+    "posterPath": "./assets/images/posters/favorites/oppenheimer.jpg",
+    "nominations": ["Picture", "Cinematography"],
+    "favoriteBy": ["stephan"]
+  },
+  {
+    "id": "favorites-19",
+    "title": "Punch Drunk Love",
+    "year": "2002",
+    "posterPath": "./assets/images/posters/favorites/punch_drunk_love.jpg",
+    "nominations": [""],
+    "favoriteBy": ["jacob"]
+  },
+  {
+    "id": "favorites-20",
+    "title": "Sling Blade",
+    "year": "1996",
+    "posterPath": "./assets/images/posters/favorites/sling_blade.jpg",
+    "nominations": [""],
+    "favoriteBy": ["beau"]
+  },
+  {
+    "id": "favorites-21",
+    "title": "Spirited Away",
+    "year": "2001",
+    "posterPath": "./assets/images/posters/favorites/spirited_away.jpg",
+    "nominations": ["Animated Feature"],
+    "favoriteBy": ["stephan"]
+  },
+  {
+    "id": "favorites-22",
+    "title": "The Social Network",
+    "year": "2010",
+    "posterPath": "./assets/images/posters/favorites/the_social_network.jpg",
+    "nominations": [""],
+    "favoriteBy": ["stephan"]
+  },
+  {
+    "id": "favorites-23",
+    "title": "The Tale of Princess Kaguya",
+    "year": "2013",
+    "posterPath": "./assets/images/posters/favorites/the_tale_of_princess_kaguya.jpg",
+    "nominations": [""],
+    "favoriteBy": ["noah"]
+  },
+  {
+    "id": "favorites-24",
+    "title": "There Will Be Blood",
+    "year": "2007",
+    "posterPath": "./assets/images/posters/favorites/there_will_be_blood.jpg",
+    "nominations": ["Cinematography"],
+    "favoriteBy": ["beau"]
+  },
+  {
+    "id": "favorites-25",
+    "title": "Tokyo Story",
+    "year": "1953",
+    "posterPath": "./assets/images/posters/favorites/tokyo_story.jpg",
+    "nominations": [""],
+    "favoriteBy": ["noah"]
+  },
+  {
+    "id": "favorites-26",
+    "title": "Whiplash",
+    "year": "2014",
+    "posterPath": "./assets/images/posters/favorites/whiplash.jpg",
+    "nominations": [""],
+    "favoriteBy": ["stephan"]
   },
   {
     "id": "",
