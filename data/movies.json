@@ -307,7 +307,7 @@
     "id": "2026-movie-l",
     "title": "Eddington",
     "year": "2025",
-    "posterPath": "./assets/images/posters/favorites/eddington.jpg",
+    "posterPath": "./assets/images/posters/2026/eddington.jpg",
     "nominations": [""],
     "favoriteBy": []
   },
@@ -315,7 +315,7 @@
     "id": "2026-movie-m",
     "title": "Now You See Me 3",
     "year": "2025",
-    "posterPath": "./assets/images/posters/favorites/now_you_see_me_3.jpg",
+    "posterPath": "./assets/images/posters/2026/now_you_see_me_3.jpg",
     "nominations": [""],
     "favoriteBy": []
   },
@@ -323,7 +323,7 @@
     "id": "2026-movie-n",
     "title": "The Long Walk",
     "year": "2025",
-    "posterPath": "./assets/images/posters/favorites/the_long_walk.jpg",
+    "posterPath": "./assets/images/posters/2026/the_long_walk.jpg",
     "nominations": [""],
     "favoriteBy": []
   },
@@ -331,7 +331,7 @@
     "id": "2026-movie-o",
     "title": "Bullet Train Explosion",
     "year": "2025",
-    "posterPath": "./assets/images/posters/favorites/bullet_train_explosion.jpg",
+    "posterPath": "./assets/images/posters/2026/bullet_train_explosion.jpg",
     "nominations": [""],
     "favoriteBy": []
   },
