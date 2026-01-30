@@ -287,6 +287,20 @@
     "reviewDate": "2026-01-29"
   },
   {
+    "movieId": "2026-movie-16",
+    "panelistId": "zach",
+    "score": "6",
+    "reviewText": "It was okay, wouldn't watch it again. Also why does it feel like Pedro Pascal is in everything?",
+    "reviewDate": "2026-01-30"
+  },
+  {
+    "movieId": "2026-movie-17",
+    "panelistId": "zach",
+    "score": "6",
+    "reviewText": "It was a good story overall. The 'Boravia-Jarhanpur' mirroring the Israeli-Palestine conflict was certainly an interesting choice (even if James Gunn says this is not true, which I'm skeptical of). It was fun enough, but I wasn't particularly captivated by it. I'm also not a fan of the superhero genre as it often comes across as CGI slop to me, and this film was no exception.",
+    "reviewDate": ""
+  },
+  {
     "movieId": "",
     "panelistId": "",
     "score": "",

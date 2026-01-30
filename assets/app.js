@@ -111,6 +111,25 @@ function renderHome({ years }) {
   }
 }
 
+const AWARD_KEYWORDS = {
+  pic: "Best Picture",
+  ani: "Best Animated Feature",
+  int: "Best International Feature",
+  doc: "Best Documentary Feature",
+  cin: "Best Cinematography",
+  vfx: "Best Visual Effects",
+};
+
+function normalizeNominations(noms) {
+  if (!Array.isArray(noms)) return [];
+
+  return noms
+    .map((n) => String(n).trim().toLowerCase())
+    .map((k) => AWARD_KEYWORDS[k] || k)     // map keywords to full labels
+    .filter(Boolean);
+}
+
+
 function renderYearsPage({ years, movies, reviews }) {
   const FAVORITES_VALUE = "__favorites__";
   const yearSelect = $("#year-select");
@@ -122,13 +141,13 @@ function renderYearsPage({ years, movies, reviews }) {
 
   // One for each Oscar award (core set). Add/remove freely.
   const OSCAR_CATEGORIES = [
-    "All Categories",
-    "Picture",
-    "Animated Feature",
-    "International Feature",
-    "Documentary Feature",
-    "Cinematography",
-    "Visual Effects",
+    "All Films",
+    "Best Picture",
+    "Best Animated Feature",
+    "Best International Feature",
+    "Best Documentary Feature",
+    "Best Cinematography",
+    "Best Visual Effects",
   ];
 
   yearSelect.innerHTML =
@@ -142,12 +161,12 @@ function renderYearsPage({ years, movies, reviews }) {
 
   if (initialYear) yearSelect.value = initialYear;
 
-  const initialAward = getParam("award") || "All Categories";
+  const initialAward = getParam("award") || "All Films";
   awardSelect.value = initialAward;
 
   function refresh() {
     const yearValue = yearSelect.value;
-    const award = awardSelect.value === "All Categories" ? null : awardSelect.value;
+    const award = awardSelect.value === "All Films" ? null : awardSelect.value;
 
     const yearMovies =
       yearValue === FAVORITES_VALUE
@@ -155,8 +174,9 @@ function renderYearsPage({ years, movies, reviews }) {
         : movies.filter((m) => Number(m.year) === Number(yearValue));
 
     const filtered = award
-      ? yearMovies.filter((m) => Array.isArray(m.nominations) && m.nominations.includes(award))
+      ? yearMovies.filter((m) => normalizeNominations(m.nominations).includes(award))
       : yearMovies;
+
 
     grid.innerHTML = "";
     for (const m of filtered) grid.appendChild(buildPosterTile(m, award));
@@ -166,7 +186,7 @@ function renderYearsPage({ years, movies, reviews }) {
     const reviewedCount = filtered.filter((m) => reviewedSet.has(String(m.id))).length;
 
     if (yearStats) yearStats.textContent = `${reviewedCount} nominees reviewed`;
-    if (awardStats) awardStats.textContent = award ? `Filtering: ${award}` : `All categories`;
+    if (awardStats) awardStats.textContent = award ? `Filtering: ${award}` : `All Films`;
   }
 
   yearSelect.classList.add("is-compact");

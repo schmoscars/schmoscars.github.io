@@ -108,7 +108,7 @@
     "title": "Parasite",
     "year": 2019,
     "posterPath": "./assets/images/posters/favorites/parasite.jpg",
-    "nominations": ["Picture", "International Feature"],
+    "nominations": ["pic", "int"],
     "favoriteBy": ["sam"]
   },
   {
@@ -116,7 +116,7 @@
     "title": "The Godfather Part II",
     "year": 1974,
     "posterPath": "./assets/images/posters/favorites/the_godfather_pt_2.jpg",
-    "nominations": ["Picture"],
+    "nominations": ["pic"],
     "favoriteBy": ["sam"]
   },
   {
@@ -132,7 +132,7 @@
     "title": "All Quiet on the Western Front",
     "year": "2022",
     "posterPath": "./assets/images/posters/favorites/all_quiet_on_the_western_front.jpg",
-    "nominations": ["International Feature", "Cinematography"],
+    "nominations": ["int", "cin"],
     "favoriteBy": ["zach"]
   },
   {
@@ -180,7 +180,7 @@
     "title": "Apocalypse Now",
     "year": "1979",
     "posterPath": "./assets/images/posters/favorites/apocalypse_now.jpg",
-    "nominations": ["Cinematography"],
+    "nominations": ["cin"],
     "favoriteBy": ["stephan"]
   },
   {
@@ -228,7 +228,7 @@
     "title": "Oppenheimer",
     "year": "2023",
     "posterPath": "./assets/images/posters/favorites/oppenheimer.jpg",
-    "nominations": ["Picture", "Cinematography"],
+    "nominations": ["pic", "cin"],
     "favoriteBy": ["stephan"]
   },
   {
@@ -252,7 +252,7 @@
     "title": "Spirited Away",
     "year": "2001",
     "posterPath": "./assets/images/posters/favorites/spirited_away.jpg",
-    "nominations": ["Animated Feature"],
+    "nominations": ["ani"],
     "favoriteBy": ["stephan"]
   },
   {
@@ -276,7 +276,7 @@
     "title": "There Will Be Blood",
     "year": "2007",
     "posterPath": "./assets/images/posters/favorites/there_will_be_blood.jpg",
-    "nominations": ["Cinematography"],
+    "nominations": ["cin"],
     "favoriteBy": ["beau"]
   },
   {
@@ -332,6 +332,22 @@
     "title": "Bullet Train Explosion",
     "year": "2025",
     "posterPath": "./assets/images/posters/2026/bullet_train_explosion.jpg",
+    "nominations": [""],
+    "favoriteBy": []
+  },
+  {
+    "id": "2026-movie-16",
+    "title": "Fantastic Four: First Steps",
+    "year": "2025",
+    "posterPath": "/assets/images/posters/2026/fantastic_four.jpg",
+    "nominations": [""],
+    "favoriteBy": []
+  },
+  {
+    "id": "2026-movie-17",
+    "title": "Superman",
+    "year": "2025",
+    "posterPath": "/assets/images/posters/2026/superman.jpg",
     "nominations": [""],
     "favoriteBy": []
   },
