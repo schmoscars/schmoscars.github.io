@@ -360,6 +360,22 @@
     "favoriteBy": []
   },
   {
+    "id": "favorites-28",
+    "title": "Donnie Darko",
+    "year": "2001",
+    "posterPath": "/assets/images/posters/favorites/donnie_darko.jpg",
+    "nominations": [""],
+    "favoriteBy": ["noah"]
+  },
+  {
+    "id": "favorites-29",
+    "title": "Chinatown",
+    "year": "1974",
+    "posterPath": "/assets/images/posters/favorites/chinatown.jpg",
+    "nominations": [""],
+    "favoriteBy": ["noah"]
+  },
+  {
     "id": "",
     "title": "",
     "year": "",
